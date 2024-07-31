@@ -1,0 +1,301 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:blue; 
+    background-image: url("assets/images/newbackground.jpg");
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 98%;
+   
+   
+  }
+  
+ .me{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;  
+    background-color: white;
+    background-image: url("assets/images/newbackground.jpg");
+    background-size: cover;
+    height: 100px;
+    align-items: center;
+    width: 102%;
+
+    
+ }
+
+ div span{
+  color: white;
+ }
+
+ 
+
+ .socialmedia{
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ .socialmedia a{
+  text-decoration: none;
+  color: white;
+  margin-inline: 10px;
+}
+
+  .home{
+    color: white;
+    text-decoration: none;
+  }
+
+  
+.contactme{
+  width: 250px;
+  height: 50px;
+  background-color: rgb(234, 100, 100);
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.contactme:hover{
+  transform: scale(1.5);
+  transition: 2s;
+  background-color: black;
+}
+
+.contactme a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+  .Toochukwu {
+    width: 750px;
+    height: 1050px;
+    
+   
+  }
+
+  .writing{
+    color: white  ;
+  }
+  
+  .skills {
+    
+    gap: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+  }
+
+  .skills p{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid solid solid solid;
+    border-color: green green green transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-box {
+    background-color: white;
+    /* border: 1px solid #ccc; */
+     border-radius: 8px;
+    padding: 1rem;
+    width: 150px;
+    
+  }
+
+  .skill-box h2{
+    color: black;
+  }
+  .skill-box2{
+    background-color: white;
+    /* border: 1px solid #ccc; */
+     border-radius: 8px;
+    padding: 1rem;
+    width: 150px;
+    
+  }
+
+  .skill-box2 p{
+    border-color: black;
+  }
+
+  .skill-box2 h2{
+    color: black;
+  }
+
+  .heading {
+    font-size: 50px;
+    color: white;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 100px;
+
+    position: relative;
+  }
+  
+  p.about{
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    /* border: 1px solid white; */
+    padding: 10px;
+    border-radius: 15px;
+    /* background-color: white; */
+    margin: 15px;
+    gap: 40px;
+    text-align: center;
+    height: 1000px;
+
+   
+    
+  }
+
+  .container img{
+    height: 1000px;
+    border-radius: 15px;
+    
+    
+   
+  }
+
+  .container h1{
+    font-size: 100px;
+  }
+
+  .container p{
+    font-size: 40px;
+  }
+
+  .aboutme{
+    text-align: center;
+    width: 50%;
+  
+  }
+
+  .experiences{
+    width: 50%;
+  }
+  .description{
+    display: flex;
+    color: white;
+    background-color: rgb(4, 4, 82);
+    width: 102%;
+    
+
+  }
+
+
+  .description p{
+    font-size: 25px;
+    color: white;
+  }
+
+  .description h2{
+    color: white;
+  }
+
+  .works{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    width: 1000px;
+    margin: auto;
+    gap: 100px;
+  }
+
+  .works div img{
+    width: 550px;
+    /* height: 500px; */
+  }
+
+  .images1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    
+  }
+
+  .images1 img{
+    height: 600px;
+    width:500px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  
+
+  h2{
+    color: white;
+  }
+
+  .design{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .design div{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    border-radius: 20px;
+    
+  }
+
+  .design div:hover{
+    background-color: black;
+    transition: 1.5s;
+    width: 350px;
+    height: 350px;
+  }
+
+ .design p{
+    color: white;
+  }
+
+  div i{
+    color: white;
+    font-size: 30px;
+   
+  }
+
+  .design div a{
+    color: rgb(155, 64, 79);
+  }
+
+  .design div p{
+    font-size: 20px ;
+  }
+
+  
+
+  
+
+
+  
+  
+  
