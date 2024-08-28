@@ -3,10 +3,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color:#07114C; 
-    background-size: cover;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-align: center;
     
    
@@ -17,12 +15,21 @@ body {
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;  
-    background-color: black;
+    background-color: #071668;
     background-size: cover;
-    height: 100px;
+    height: 80px;
     align-items: center;
+ }
+ .me h1{
+  color: white;
+  font-size: 35px;
+ }
+ .me div a{
+  font-size: 23px;
+ } 
 
-    
+ .me div span{
+  font-size: 20px;
  }
  .pages a{
   font-size: 20px;
@@ -35,16 +42,23 @@ body {
  
 
  .socialmedia{
-  font-size: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
  }
+ 
  .socialmedia a{
   text-decoration: none;
   color: white;
   margin-inline: 10px;
 
+}
+.socialmedia a i{
+  font-size: 20px;
+
+}
+.socialmedia a span{
+  font-size: 20px;
 }
 
   .home{
@@ -59,6 +73,7 @@ body {
   background-color: rgb(234, 100, 100);
   font-size: 20px;
   border-radius: 50px;
+  border-style: none;
 }
 
 .contactme:hover{
@@ -74,13 +89,7 @@ body {
 
 
 
-  .Toochukwu {
-    width: 750px;
-    height: 1050px;
-    
-    
-   
-  }
+  
 
   .writing{
     color: white  ;
@@ -133,7 +142,7 @@ body {
   }
 
   .skill-box2 p{
-    border-color: black;
+    border-color:  green green transparent transparent;
   }
 
   .skill-box2 h2{
@@ -166,19 +175,12 @@ body {
     border-radius: 15px;
     margin: auto;
     text-align: center;
-    
-    
-   
-    
   }
 
   .container img{
-    height: 700px;
+    height: 900px;
     width: 500px;
     border-radius: 15px;
-    
-    
-   
   }
 
   .container h1{
@@ -212,8 +214,7 @@ body {
   .description{
     display: flex;
     color: white;
-    background-color: rgb(4, 4, 82);
-    /* width: 70%; */
+    background-color: rgb(23, 23, 113);
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
